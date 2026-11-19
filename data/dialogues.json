@@ -1,0 +1,112 @@
+{
+  "egypt": {
+    "avatar": [
+      "Bienvenue en Égypte Antique, jeune explorateur!",
+      "Ta mission est de découvrir les secrets de cette époque fascinante.",
+      "Explore la carte et clique sur les objets pour en apprendre plus!",
+      "Parle aux habitants pour tester tes connaissances.",
+      "Une fois tous les objectifs complétés, tu pourras récupérer le fragment temporel."
+    ],
+    "npcs": {
+      "pharaoh": {
+        "name": "Pharaon Khéops",
+        "dialogues": [
+          "Je suis le grand Pharaon Khéops, constructeur de la plus grande pyramide!",
+          "Pour prouver ta sagesse, réponds à ma question."
+        ],
+        "quiz": {
+          "question": "Quelle était la principale fonction des pyramides d'Égypte?",
+          "answers": [
+            "Temples religieux",
+            "Tombeaux pour les pharaons",
+            "Palais royaux",
+            "Observatoires astronomiques"
+          ],
+          "correct": 1
+        }
+      },
+      "scribe": {
+        "name": "Scribe Imhotep",
+        "dialogues": [
+          "Je suis Imhotep, le scribe royal et architecte.",
+          "La connaissance est le plus grand trésor. Montre-moi ce que tu sais!"
+        ],
+        "quiz": {
+          "question": "Quel système d'écriture utilisaient les Égyptiens?",
+          "answers": [
+            "Alphabet latin",
+            "Hiéroglyphes",
+            "Cunéiforme",
+            "Idéogrammes chinois"
+          ],
+          "correct": 1
+        }
+      }
+    },
+    "objects": [
+      {
+        "type": "pyramid",
+        "name": "Grande Pyramide",
+        "info": "La Grande Pyramide de Khéops est l'une des Sept Merveilles du monde antique. Elle mesure environ 146 mètres de hauteur."
+      },
+      {
+        "type": "sphinx",
+        "name": "Le Sphinx",
+        "info": "Le Grand Sphinx de Gizeh est une statue monumentale à tête humaine et corps de lion, gardien des pyramides."
+      },
+      {
+        "type": "scroll",
+        "name": "Papyrus",
+        "info": "Les Égyptiens écrivaient sur du papyrus, fabriqué à partir de la plante du même nom qui poussait le long du Nil."
+      },
+      {
+        "type": "artifact",
+        "name": "Sarcophage",
+        "info": "Les pharaons étaient enterrés dans des sarcophages richement décorés de hiéroglyphes et de scènes religieuses."
+      },
+      {
+        "type": "treasure",
+        "name": "Trésor",
+        "info": "Les tombeaux contenaient des trésors pour accompagner le pharaon dans l'au-delà : or, bijoux et objets précieux."
+      }
+    ]
+  },
+  "medieval": {
+    "avatar": [
+      "Bienvenue au Moyen Âge!",
+      "Une époque de chevaliers, de châteaux et de légendes.",
+      "Explore ce monde médiéval et apprends ses secrets!"
+    ],
+    "npcs": {
+      "knight": {
+        "name": "Chevalier Roland",
+        "dialogues": [
+          "Je suis le chevalier Roland, défenseur du royaume.",
+          "Prouve ton courage en répondant à ma question!"
+        ],
+        "quiz": {
+          "question": "Quel était le rôle principal d'un chevalier au Moyen Âge?",
+          "answers": [
+            "Agriculteur",
+            "Guerrier et protecteur",
+            "Marchand",
+            "Artisan"
+          ],
+          "correct": 1
+        }
+      }
+    },
+    "objects": [
+      {
+        "type": "castle",
+        "name": "Château Fort",
+        "info": "Les châteaux forts étaient des forteresses défensives où vivaient les seigneurs et leurs vassaux."
+      },
+      {
+        "type": "sword",
+        "name": "Épée",
+        "info": "L'épée était l'arme noble du chevalier, souvent bénie et dotée d'un nom propre."
+      }
+    ]
+  }
+}
