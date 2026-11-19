@@ -7,8 +7,7 @@
 ## 📋 Informations du Projet
 
 - **Titre du jeu** : History Explorer
-- **Auteur** : Chaimae Berdij
-- **Filière** : 4ème Année Génie Informatique
+- **Filière** : 5ème Année Génie Informatique
 - **Encadrant** : Prof. HAJJI TARIK
 - **Date** : Avril 2026
 - **Type** : Jeu éducatif d'aventure / Point & Click
